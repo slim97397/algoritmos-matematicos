@@ -1,0 +1,70 @@
+body{
+    background: url("https://imageio.forbes.com/blogs-images/olliebarder/files/2015/08/toyoi2.gif?height=400&width=711&fit=bounds");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}   
+#cont-algoritmos{
+    width: 80%;
+    margin: 120px auto;
+    border:2px solid blue;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.multicolor-box {
+    width: 200px;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: changeColors 5s infinite; /* Cambia los colores cada 5 segundos */
+    text-align: center;
+}
+
+@keyframes changeColors {
+    0% { background-color: red; }
+    20% { background-color: orange; }
+    40% { background-color: yellow; }
+    60% { background-color: green; }
+    80% { background-color: blue; }
+    100% { background-color: indigo; }
+}
+
+.multicolor-box a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+ 
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+
+h2{
+    color: rgb(25, 0, 255);
+    font-size: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    border: 2px solid rgb(0, 198, 248);
+    background: rgba(255, 255, 255, 0.479);
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 5px;
+
+}
